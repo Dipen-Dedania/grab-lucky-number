@@ -1,0 +1,113 @@
+{
+  "id": "f0e413c4-1840-4493-986d-95dc0d1e5b40",
+  "name": "tell_number",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "tell_number",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "b7d8850f-86e7-4dc5-ba91-a7454d489bd3",
+          "required": true,
+          "dataType": "@sys.any",
+          "name": "Name",
+          "value": "$Name",
+          "prompts": [
+            "Tell me your good name!"
+          ],
+          "defaultValue": "Secret Agent",
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "cortanaCommand": {
+    "navigateOrService": "NAVIGATE",
+    "target": ""
+  },
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1522525790,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "34b4f97c-250a-4d41-9e8f-ad926aec481d",
+      "data": [
+        {
+          "text": "Dipen",
+          "alias": "Name",
+          "meta": "@sys.any",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1522525790,
+      "isAuto": false
+    },
+    {
+      "id": "f1e6d095-9221-41ad-8665-996f19e14249",
+      "data": [
+        {
+          "text": "It's "
+        },
+        {
+          "text": "Dipen",
+          "alias": "Name",
+          "meta": "@sys.any",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1522525790,
+      "isAuto": false
+    },
+    {
+      "id": "2bd20355-168a-461e-9f53-6e655612e449",
+      "data": [
+        {
+          "text": "Myself "
+        },
+        {
+          "text": "Dipen",
+          "alias": "Name",
+          "meta": "@sys.any",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1522525790,
+      "isAuto": false
+    },
+    {
+      "id": "f22854d1-fe41-4b8a-8300-ea5813c79f8b",
+      "data": [
+        {
+          "text": "My name is "
+        },
+        {
+          "text": "Dipen",
+          "alias": "Name",
+          "meta": "@sys.any",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 1522525790,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "templates": []
+}
