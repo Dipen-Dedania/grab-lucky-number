@@ -1,7 +1,3 @@
-/* 
- Created on : Jul 4, 2017, 12:43:10 AM
- Author     : Atta-Ur-Rehman Shah (http://attacomsian.com)
- */
 $(function () {
 
     //init wow effects
@@ -30,4 +26,6 @@ $(function () {
         }, 1500, 'easeInOutExpo');
         event.preventDefault();
     });
+	
+	ga('send', 'pageview', location.pathname);
 });
